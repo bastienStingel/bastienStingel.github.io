@@ -1,0 +1,70 @@
+﻿body{
+	margin: 0;
+}
+
+#page-nav{
+	color: black;
+	background-color:  #ffccff;
+}
+
+#page-nav ul{
+	margin: 0;
+	padding: 0;
+	height: 50px;
+	display: flex;
+	list-style-type: none;
+	justify-content: center;
+	align-items: center;
+}
+
+#page-nav li{
+	margin: 0 10px;
+}
+
+#page-nav a{
+	color: inherit;
+	text-decoration: none;
+}
+
+#page-nav a:hover{
+	color: white;
+}
+
+.logo {
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 15px;
+	color: black;
+	background-color: none;
+	diplay:flex;
+	align-items: center;
+}
+
+.box h1, h2, h3, p{
+	text-align: center;
+	color: white;
+}
+
+.box p{
+	color: white;
+}
+
+.box{
+	background-image: url(../media/img/fleur.jpg);
+	background-size: cover;
+	padding: 170px;
+	background-position: center center;
+}
+
+.box-image{
+	filter: blur(5px);
+}
+
+
+.box h1{
+	padding: 100 100px;
+}
+
+h1, h2, h3, p{
+	color: black;
+}
